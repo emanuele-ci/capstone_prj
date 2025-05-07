@@ -25,7 +25,7 @@ class Config:
    basedir = os.path.abspath(os.path.dirname(__file__))
    
    AUTH0_DOMAIN = os.environ.get('AUTH0_DOMAIN') 
-   ALGORITHMS = os.environ.get['ALGORITHMS'] 
+   ALGORITHMS = os.environ.get('ALGORITHMS') 
    API_AUDIENCE = os.environ.get('API_AUDIENCE')
 
    ASSISTANT_JWT = os.environ.get('ASSISTANT_JWT')
