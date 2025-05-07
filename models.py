@@ -19,6 +19,9 @@ import json
 #database_filename = "fyyurdb"
 #database_path = "postgresql://{}:{}@{}/{}".format("postgres", "postgres", "localhost:5432", database_filename)
 
+
+DATABASE_URL = os.environ.get('DATABASE_URL')
+
 db = SQLAlchemy()
 
 '''
