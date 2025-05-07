@@ -7,7 +7,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 from models import setup_db, Actor, Movie
 
-from api import create_app
+from app import create_app
 
 #import database.models.setup_db
 
@@ -15,7 +15,7 @@ from api import create_app
 
 from flask import current_app
 
-#from api import app
+#from app import app
 # set our application to testing mode
 #app.testing = True
 
