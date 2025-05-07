@@ -263,7 +263,7 @@ Auth0 configurations are in the first lines of file auth.py
 To install dependencies, please run
 
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 To run the server, each time a new terminal session is open, please run:
