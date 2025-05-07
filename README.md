@@ -269,7 +269,7 @@ pip install -r requirements.txt
 To run the server, each time a new terminal session is open, please run:
 
 ```bash
-export FLASK_APP=api.py;
+export FLASK_APP=app.py;
 ```
 
 To run the server, execute:
