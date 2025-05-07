@@ -27,7 +27,7 @@ setup_db(app)
 '''
 
 
-def setup_db(app, i_database_path=SQLALCHEMY_DATABASE_URI):
+def setup_db(app, i_database_path=DATABASE_URL):
     app.config["SQLALCHEMY_DATABASE_URI"] = i_database_path
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
     db.app = app
