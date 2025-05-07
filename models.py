@@ -35,7 +35,7 @@ def setup_db(app, i_database_path=DATABASE_URL):
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
     db.app = app
     db.init_app(app)
-    if i_database_path != database_path:
+    if i_database_path != DATABASE_URL:
         db.create_all()
 
 
