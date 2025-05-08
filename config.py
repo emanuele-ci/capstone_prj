@@ -36,8 +36,8 @@ class Config:
    
    
    # DATABASE URL
-   #SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:postgres@localhost:5432/capstone'
-   SQLALCHEMY_DATABASE_URI = 'postgresql://{}:{}@{}/{}'.format(DB_USER,DB_PASSWORD,'localhost:5432', DB_NAME)
+   SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:postgres@localhost:5432/capstone'
+   #SQLALCHEMY_DATABASE_URI = 'postgresql://{}:{}@{}/{}'.format(DB_USER,DB_PASSWORD,'localhost:5432', DB_NAME)
 
    #DATABASE_URL = os.environ.get('DATABASE_URL')
    
