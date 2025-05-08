@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 import json
 #from settings import DB_NAME, DB_USER, DB_PASSWORD
 
-database_filename = "capstone"
+#database_filename = "capstone"
 #database_filename= DB_NAME 
 #project_dir = os.path.dirname(os.path.abspath(__file__))
 #database_path = "sqlite:///{}".format(os.path.join(project_dir, database_filename))
