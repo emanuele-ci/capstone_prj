@@ -4,23 +4,20 @@ from flask_sqlalchemy import SQLAlchemy
 import json
 #from settings import DB_NAME, DB_USER, DB_PASSWORD
 
-#database_filename = "capstone"
+database_filename = "capstone"
 #database_filename= DB_NAME 
 #project_dir = os.path.dirname(os.path.abspath(__file__))
-#database_path = "postgresql:///{}".format(os.path.join(project_dir, database_filename))
+#database_path = "sqlite:///{}".format(os.path.join(project_dir, database_filename))
 #database_path = "postgresql://{}:{}@{}/{}".format("postgres", "postgres", "localhost:5432", database_filename)
 #database_path = 'postgresql://{}:{}@{}/{}'.format(DB_USER,DB_PASSWORD,'localhost:5432', database_name)
 
 
-database_path = os.environ.get('DATABASE_URI')
+database_path = os.environ['DATABASE_URL']
 #if database_path.startswith("postgres://"):
  # database_path = database_path.replace("postgres://", "postgresql://", 1)
   
 #database_filename = "fyyurdb"
 #database_path = "postgresql://{}:{}@{}/{}".format("postgres", "postgres", "localhost:5432", database_filename)
-
-
-#DATABASE_URL = os.environ.get('DATABASE_URL')
 
 db = SQLAlchemy()
 
